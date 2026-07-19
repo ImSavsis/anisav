@@ -1,3 +1,5 @@
+Я че умный?
+
 # anisav
 
 десктопное приложение для аниме, дергает AniLiberty API. electron + react + ts.
