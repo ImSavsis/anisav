@@ -1,0 +1,7 @@
+node_modules/
+out/
+dist/
+_research/
+.claude/
+*.log
+.DS_Store
