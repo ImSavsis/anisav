@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { api } from '../lib/api'
-import type { ScheduleDay } from '../lib/types'
+import type { ScheduleDay } from '../../../shared/types'
 import AnimeCard from '../components/AnimeCard'
 import Loader from '../components/Loader'
 

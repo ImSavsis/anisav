@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useAuth } from '../lib/AuthContext'
-import type { CollectionType, Release } from '../lib/types'
+import type { CollectionType, Release } from '../../../shared/types'
 import AnimeCard from '../components/AnimeCard'
 import Loader from '../components/Loader'
 

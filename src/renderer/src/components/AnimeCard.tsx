@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import type { Release } from '../lib/types'
+import type { Release } from '../../../shared/types'
 import { imageUrl } from '../lib/api'
 import WishlistButton from './WishlistButton'
 

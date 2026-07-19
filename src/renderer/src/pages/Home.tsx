@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { api, imageUrl } from '../lib/api'
-import type { Release, ScheduleDay } from '../lib/types'
+import type { Release, ScheduleDay } from '../../../shared/types'
 import Row from '../components/Row'
 import { GridSkeleton } from '../components/Skeleton'
 import { Link } from 'react-router-dom'

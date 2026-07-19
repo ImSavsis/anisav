@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../lib/AuthContext'
-import type { HistoryItem } from '../lib/types'
+import type { HistoryItem } from '../../../shared/types'
 import { imageUrl } from '../lib/api'
 import Loader from '../components/Loader'
 

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { api } from '../lib/api'
-import type { CatalogFilters, Genre, Release, ValueDescription } from '../lib/types'
+import type { CatalogFilters, Genre, Release, ValueDescription } from '../../../shared/types'
 import AnimeCard from '../components/AnimeCard'
 import { GridSkeleton } from '../components/Skeleton'
 

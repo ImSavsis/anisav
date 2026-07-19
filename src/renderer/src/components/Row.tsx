@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import type { Release } from '../lib/types'
+import type { Release } from '../../../shared/types'
 import AnimeCard from './AnimeCard'
 
 const container = {

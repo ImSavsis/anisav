@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react'
-import type { UserProfile } from './types'
+import type { UserProfile } from '../../../shared/types'
 
 interface AuthState {
   user: UserProfile | null

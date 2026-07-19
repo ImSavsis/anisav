@@ -1,4 +1,4 @@
-import type { Release } from './types'
+import type { Release } from '../../../shared/types'
 
 const KEY = 'anisav:wishlist'
 const EVENT = 'anisav:wishlist-changed'

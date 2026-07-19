@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { getWishlist, onWishlistChange } from '../lib/wishlist'
-import type { Release } from '../lib/types'
+import type { Release } from '../../../shared/types'
 import AnimeCard from '../components/AnimeCard'
 
 const container = { hidden: {}, show: { transition: { staggerChildren: 0.04 } } }

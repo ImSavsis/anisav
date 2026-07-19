@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useAuth } from '../lib/AuthContext'
-import type { CollectionType } from '../lib/types'
+import type { CollectionType } from '../../../shared/types'
 
 const LABELS: Record<CollectionType, string> = {
   WATCHING: 'Смотрю',

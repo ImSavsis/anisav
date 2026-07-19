@@ -6,7 +6,7 @@ import type {
   ScheduleDay,
   ScheduleNow,
   ValueDescription,
-} from './types'
+} from '../../../shared/types'
 
 const GATEWAY = 'https://api.savsis.xyz/api/anilibria'
 const API_BASE = `${GATEWAY}/api/v1`

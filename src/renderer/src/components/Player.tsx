@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import Hls from 'hls.js'
-import type { Episode } from '../lib/types'
+import type { Episode } from '../../../shared/types'
 import { loadPlayerPrefs, savePlayerPrefs, PlayerPrefs } from '../lib/playerPrefs'
 
 const QUALITIES = [

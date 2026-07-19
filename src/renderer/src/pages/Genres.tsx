@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { api, imageUrl } from '../lib/api'
-import type { Genre } from '../lib/types'
+import type { Genre } from '../../../shared/types'
 import Loader from '../components/Loader'
 
 const container = { hidden: {}, show: { transition: { staggerChildren: 0.035 } } }

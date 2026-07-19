@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { isInWishlist, toggleWishlist, onWishlistChange } from '../lib/wishlist'
-import type { Release } from '../lib/types'
+import type { Release } from '../../../shared/types'
 
 export default function WishlistButton({
   release,
